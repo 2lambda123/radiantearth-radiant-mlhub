@@ -30,7 +30,7 @@ setuptools.setup(
         'pystac~=1.4.0',
         'python-dateutil~=2.8.2',
         'requests~=2.27.0',
-        'shapely~=1.8.0',
+        'shapely>=1.8,<2.1',
         'tqdm~=4.64.0'
     ],
     classifiers=[
