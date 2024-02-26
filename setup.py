@@ -29,7 +29,7 @@ setuptools.setup(
         'pydantic>=1.9.2,<2.7.0',
         'pystac~=1.4.0',
         'python-dateutil~=2.8.2',
-        'requests~=2.27.0',
+        'requests>=2.27,<2.32',
         'shapely>=1.8,<2.1',
         'tqdm~=4.64.0'
     ],
